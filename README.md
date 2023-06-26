@@ -13,3 +13,21 @@
 Меняю приоритеты на портах  Gi0/1 роутеров. 55 и 60.
 Настраиваю track.
 
+https://github.com/megawebtech/8-03hw-keepalived/blob/master/screenshot%20setting%20intGi01.JPG
+
+ПРоверяю корректность настройки, разрываю кабель у свитча 0:
+
+https://github.com/megawebtech/8-03hw-keepalived/blob/master/state%20after%20cutting%20wire.JPG
+
+Проверяю, что поменялся приоритет:
+
+
+https://github.com/megawebtech/8-03hw-keepalived/blob/master/screenshot%20sh%20standby%20br.JPG
+
+ПРиоритет усменьшился на 10 (по умолчанию)
+
+
+Ссылка на файл на схему CPT:
+
+https://github.com/megawebtech/8-03hw-keepalived/blob/master/hsrp_advanced%20task%201.pkt
+
